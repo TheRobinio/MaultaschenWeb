@@ -1,0 +1,110 @@
+* {
+    
+}
+body {
+    margin: 0;
+}
+footer {
+    text-align: center;
+}
+#content {
+    display: flex;
+    justify-content: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: green;
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+    background-color: grey;
+}
+.contis {
+  background-color: #ddd;
+  width: 62em;
+  padding: 1em 2em;
+}
+.subcontis {
+
+}
+#ve th, td {
+    padding: 0em 1em;
+}
+.tabcon {
+    text-align: center;
+}
+#bestell-form div {
+    display: flex;
+}
+.bestellfeld {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: 2em;
+}
+p.lefts {
+  margin-left: 1em;
+  align-self: center;
+}
+#subbut {
+    justify-content: center;
+}
+#submitbut {
+    padding: 1em 2em;
+}
+.loginfield  {
+    display: grid;
+    justify-content: center;
+}
+.loginfield input {
+    width: 30em;
+    padding: 1em 0;
+    margin: 0.1em 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contis {
+        width: 100%;
+        padding: 0 0.5em;
+        margin: 0;
+    }
+    .bestellfeld {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: 0.5em;
+    }
+    p.lefts {
+        margin-left: 0.2em;
+      }
+      #subbut span {
+          width: 100%;
+          margin: 0.5em 0;
+      }
+      #submitbut {
+          width: 100%;
+          padding: 0.5em 0;
+      }
+      .loginfield  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 2em;
+      }
+      .loginfield input {
+            width: 100%;
+            padding: 1em 0;
+            margin: 0.5em 0;
+       }
+}
